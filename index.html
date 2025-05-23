@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Passcode ElectroniX - Premium Electronics</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- Transparent Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <img src="techsphere-logo.png" alt="Passcode ElectroniX Logo">
+                </div>
+                
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Products</a></li>
+                        <li class="dropdown">
+                            <a href="#">Categories <i class="fas fa-chevron-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Smartphones</a></li>
+                                <li><a href="#">Laptops</a></li>
+                                <li><a href="#">TVs</a></li>
+                                <li><a href="#">Audio</a></li>
+                                <li><a href="#">Accessories</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#">Deals</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <div class="header-actions">
+                    <div class="search-box">
+                        <input type="text" placeholder="Search products...">
+                        <button class="search-btn"><i class="fas fa-search"></i></button>
+                    </div>
+                    <div class="cart-icon">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="cart-count">0</span>
+                    </div>
+                    <div class="mobile-menu-toggle">
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Mobile Menu Structure -->
+<div class="mobile-menu-overlay"></div>
+<div class="mobile-menu-container">
+    <div class="mobile-menu-header">
+        <div class="mobile-logo">
+            <img src="techsphere-logo.png" alt="Passcode ElectroniX">
+        </div>
+        <button class="mobile-menu-close">
+            <i class="fas fa-times"></i>
+        </button>
+    </div>
+    
+    <nav class="mobile-nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Products</a></li>
+            <li class="mobile-dropdown">
+                <a href="#">
+                    <span>Categories</span>
+                    <i class="fas fa-chevron-down dropdown-icon"></i>
+                </a>
+                <ul class="mobile-submenu">
+                    <li><a href="#">Smartphones</a></li>
+                    <li><a href="#">Laptops</a></li>
+                    <li><a href="#">TVs</a></li>
+                    <li><a href="#">Audio</a></li>
+                    <li><a href="#">Accessories</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Deals</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <div class="mobile-menu-footer">
+        <div class="mobile-search">
+            <input type="text" placeholder="Search products...">
+            <button class="mobile-search-btn">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+        <a href="#" class="mobile-cart">
+            <i class="fas fa-shopping-cart"></i>
+            <span class="mobile-cart-count">0</span>
+        </a>
+    </div>
+</div>
+    </header>
+
+    <!-- Full Screen Hero Slideshow -->
+    <section class="hero-slideshow">
+        <div class="hero-slides">
+            <!-- Slide 1 -->
+            <div class="slide active" style="background-image: url('images/hero-banner-apple-MacBook-Air.image.large_2x.jpg')">
+                <div class="slide-content">
+                    <h2>Next Generation Laptops</h2>
+                    <p>Experience unparalleled performance with our latest collection of high-end laptops</p>
+                    <div class="hero-btns">
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                        <a href="#" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slide 2 -->
+            <div class="slide" style="background-image: url('images/1440x520.png')">
+                <div class="slide-content">
+                    <h2>Premium Smartphones</h2>
+                    <p>Discover cutting-edge technology with our flagship smartphones</p>
+                    <div class="hero-btns">
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                        <a href="#" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Slide 3 -->
+            <div class="slide" style="background-image: url('images/Soundbar_1_HS218@2x.jpg')">
+                <div class="slide-content">
+                    <h2>Immersive Audio Experience</h2>
+                    <p>High-fidelity sound systems for audiophiles and casual listeners alike</p>
+                    <div class="hero-btns">
+                        <a href="#" class="btn btn-primary">Shop Now</a>
+                        <a href="#" class="btn btn-secondary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="slide-controls">
+            <button class="slide-prev"><i class="fas fa-chevron-left"></i></button>
+            <div class="slide-dots">
+                <span class="dot active"></span>
+                <span class="dot"></span>
+                <span class="dot"></span>
+            </div>
+            <button class="slide-next"><i class="fas fa-chevron-right"></i></button>
+        </div>
+    </section>
+
+    <div class="toast-notification"></div>
+
+    <!-- Categories Section -->
+<section class="categories-section">
+    <h2 class="section-title">Shop by Category</h2>
+    <p class="section-subtitle">Discover our wide range of electronics</p>
+    
+    <div class="categories-grid">
+        <!-- Smartphones -->
+        <a href="/products/smartphones" class="category-card">
+            <div class="category-image">
+                <img src="images/image1.jpg" alt="Smartphones">
+            </div>
+            <div class="category-info">
+                <h3>Smartphones</h3>
+                <p>Latest models from top brands</p>
+                <span class="shop-now">Shop Now <i class="fas fa-arrow-right"></i></span>
+            </div>
+        </a>
+        
+        <!-- Laptops -->
+        <a href="/products/laptops" class="category-card">
+            <div class="category-image">
+                <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1926&q=80" alt="Laptops">
+            </div>
+            <div class="category-info">
+                <h3>Laptops</h3>
+                <p>Powerful machines for work & play</p>
+                <span class="shop-now">Shop Now <i class="fas fa-arrow-right"></i></span>
+            </div>
+        </a>
+        
+        <!-- TVs -->
+        <a href="/products/tvs" class="category-card">
+            <div class="category-image">
+                <img src="https://images.unsplash.com/photo-1593305841991-05c297ba4575?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1957&q=80" alt="TVs">
+            </div>
+            <div class="category-info">
+                <h3>TVs & Displays</h3>
+                <p>Immersive viewing experiences</p>
+                <span class="shop-now">Shop Now <i class="fas fa-arrow-right"></i></span>
+            </div>
+        </a>
+        
+        <!-- Audio -->
+        <a href="/products/audio" class="category-card">
+            <div class="category-image">
+                <img src="images/pngwing.com (1).png" alt="Audio">
+            </div>
+            <div class="category-info">
+                <h3>Audio</h3>
+                <p>Crystal clear sound systems</p>
+                <span class="shop-now">Shop Now <i class="fas fa-arrow-right"></i></span>
+            </div>
+        </a>
+        
+        <!-- Cameras -->
+        <a href="/products/cameras" class="category-card">
+            <div class="category-image">
+                <img src="https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1932&q=80" alt="Cameras">
+            </div>
+            <div class="category-info">
+                <h3>Security Cameras</h3>
+                <p>Advanced surveillance for home & business</p>
+                <span class="shop-now">Shop Now <i class="fas fa-arrow-right"></i></span>
+            </div>
+        </a>
+        
+        <!-- Accessories -->
+        <a href="/products/accessories" class="category-card">
+            <div class="category-image">
+                <img src="https://images.unsplash.com/photo-1585771724684-38269d6639fd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80" alt="Accessories">
+            </div>
+            <div class="category-info">
+                <h3>Accessories</h3>
+                <p>Essential tech companions</p>
+                <span class="shop-now">Shop Now <i class="fas fa-arrow-right"></i></span>
+            </div>
+        </a>
+    </div>
+</section>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
